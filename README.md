@@ -1,5 +1,13 @@
-# demo02
+## demo02
 How to use Jenkins deploy virtual machine from vcenter using terraform script. And after create virtual machine assign IP address and joint domain.
+
+## Introduction
+This repo use for study IAC.
+
+### Software Requirement
+1. vCenter and vSphere host
+2. Jenkins
+3. Terraform
 
 ### File lists
 1. <a href="https://github.com/0psdev/demo02/blob/main/variables.tf" target="_blank">variables.tf</a> -> This file is include all variable that need to use deploy virtual manchine.
