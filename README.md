@@ -2,7 +2,7 @@
 How to use Jenkins deploy virtual machine from vcenter using terraform script. And after create virtual machine assign IP address and joint domain.
 
 File
-1. variables.tf -> This file is include all variable that need to use deploy virtual manchine.
+1. <a href="https://github.com/0psdev/demo02/blob/main/variables.tf" target="_blank">variables.tf</a> -> This file is include all variable that need to use deploy virtual manchine.
    
    VSPHERE_USER = vcenter username
 
@@ -12,7 +12,7 @@ File
 
    VSPHERE_DC = datacentername
 
-      VSPHERE_CLUSTER = clustername
+   VSPHERE_CLUSTER = clustername
 
    VSPHERE_DSG = datastore name
 
@@ -33,7 +33,7 @@ File
    VSPHERE_JDPASS = doamin password to joint account
 
    
-2. mail.tf -> This file is include all configuration that need to deploy virtual machine.
+2. <a href="https://github.com/0psdev/demo02/blob/main/main.tf" target="_blank">main.tf</a> -> This file is include all configuration that need to deploy virtual machine.
 
-3. jenkinsfile -> This file is step to run CI/CD in jenkins.
+3. <a href="https://github.com/0psdev/demo02/blob/main/Jenkinsfile" target="_blank">jenkinsfile</a> -> This file is step to run CI/CD in jenkins.
    
